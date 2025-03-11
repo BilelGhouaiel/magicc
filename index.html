@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../magic-lotr/style.css">
+        <title>MagicTheGathering</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <img class="logo" src="../magic-lotr/images/logo.png" alt="Logo">
+            <div class="nav-links">
+            <a href="">Produits</a>
+            <a href="">Regarder</a>
+            <a href="">Jouer</a>
+            <a href="">Histoire</a>
+            <a href="">Articles</a>
+            </div>
+        </nav>
+        <main>
+            <img src="../magic-lotr/images/LTR.webp" alt="LTR">
+            <div class="grid"></div>
+            <template id="card-template">
+                <div class="card">
+                    <img class="card-img" alt="Image de la carte">
+                    <p></p>
+                    <div class="mana-cost"></div> <!-- Doit être présent -->
+                </div>
+            </template>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
+        
+        <template id="card-template">
+            <div class="card">
+                <img class="card-img">
+                <p>{{texte}}</p>
+            </div>
+        </template>
+    </body>
+</html>
